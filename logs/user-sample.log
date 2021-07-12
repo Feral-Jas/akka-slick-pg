@@ -1,0 +1,5 @@
+2021-07-13 00:51:34,153 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2021-07-13 00:51:34,161 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-6 - logger log1-Slf4jLogger started
+2021-07-13 00:51:34,163 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-6 - Default Loggers started
+2021-07-13 00:51:34,212 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-7 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 00:51:34,717 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - Successfully bound to /0:0:0:0:0:0:0:0:8080
