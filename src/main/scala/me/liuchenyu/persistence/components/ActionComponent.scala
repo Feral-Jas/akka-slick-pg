@@ -5,6 +5,7 @@ import me.liuchenyu.persistence.{Action, DbConfig, RepoDefinition, User}
 import java.sql.Timestamp
 import java.util.UUID
 import scala.concurrent.{ExecutionContext, Future}
+import scala.language.postfixOps
 
 /**
  * @author liuchenyu
@@ -24,13 +25,13 @@ trait ActionComponent extends RepoDefinition {
       (id, name, description, created, modified.?) <> (Action.tupled, Action.unapply)
   }
 
-  class ActionRepository(implicit ex: ExecutionContext) extends BaseRepo[Action,ActionTable] {
+  class ActionRepository(implicit ex: ExecutionContext) extends BaseRepo[Action, ActionTable] {
 
     override val table = TableQuery[ActionTable]
 
-    def actionsInRange(from:Timestamp,to:Timestamp):Future[Seq[Action]] = {
+    def actionsInRange(from: Timestamp, to: Timestamp): Future[Seq[Action]] = {
       db.run {
-        table filter (_.created between (from,to)) result
+        table filter (_.created between(from, to)) result
       }
     }
 

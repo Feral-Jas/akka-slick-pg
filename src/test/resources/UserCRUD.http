@@ -1,0 +1,15 @@
+GET {{server}}/users/
+
+###
+
+POST {{server}}/users
+Content-Type: application/json
+
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "name": "James",
+  "gender": "male",
+  "age": 12,
+  "created": 1626143678526,
+  "modified": 1626143698526
+}

@@ -1,14 +1,14 @@
 package me.liuchenyu.persistence.components
 
-import me.liuchenyu.persistence.{Action, DbConfig, RepoDefinition, User}
+import me.liuchenyu.persistence.{DbConfig, RepoDefinition, User}
 
-import java.util.UUID
 import scala.concurrent.{ExecutionContext, Future}
+import scala.language.postfixOps
 
 /**
  * @author liuchenyu
  * @date 2021/7/12
- * @description ${DESCRIPTION}
+ * @description
  */
 trait UserComponent extends RepoDefinition {
   this: DbConfig =>
@@ -28,7 +28,7 @@ trait UserComponent extends RepoDefinition {
 
     override val table = TableQuery[UserTable]
 
-    def userByName(name:String):Future[Seq[User]] ={
+    def userByName(name: String): Future[Seq[User]] = {
       db.run {
         table filter (_.name === name) result
       }

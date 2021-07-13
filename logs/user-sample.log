@@ -3,3 +3,483 @@
 2021-07-13 00:51:34,163 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-6 - Default Loggers started
 2021-07-13 00:51:34,212 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-7 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
 2021-07-13 00:51:34,717 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 09:48:44,557 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2021-07-13 09:48:44,567 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - logger log1-Slf4jLogger started
+2021-07-13 09:48:44,569 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - Default Loggers started
+2021-07-13 09:48:44,681 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-5 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 09:48:45,759 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:22:23,762 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2021-07-13 10:22:23,773 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - logger log1-Slf4jLogger started
+2021-07-13 10:22:23,775 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - Default Loggers started
+2021-07-13 10:22:23,869 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-5 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 10:22:24,762 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:23:36,035 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-9 - New connection accepted
+2021-07-13 10:23:48,518 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-11 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:24:03,843 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-13 - New connection accepted
+2021-07-13 10:24:16,108 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-13 - New connection accepted
+2021-07-13 10:24:20,130 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-13 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:24:20,146 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-11 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:25:46,763 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2021-07-13 10:25:46,773 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - logger log1-Slf4jLogger started
+2021-07-13 10:25:46,775 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - Default Loggers started
+2021-07-13 10:25:46,864 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-6 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 10:25:47,717 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:25:52,074 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - New connection accepted
+2021-07-13 10:25:52,222 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-6 - Error during processing of request: 'merge of system properties,application.conf @ file:/Users/liuchenyu/Downloads/akka-slick-pg/target/scala-2.12/classes/application.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.15/akka-actor-typed_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor_2.12/2.6.15/akka-actor_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http-core_2.12/10.2.4/akka-http-core_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.2.4/akka-http_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-stream_2.12/2.6.15/akka-stream_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar!/reference.conf: 1: No configuration setting found for key 'database''. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+com.typesafe.config.ConfigException$Missing: merge of system properties,application.conf @ file:/Users/liuchenyu/Downloads/akka-slick-pg/target/scala-2.12/classes/application.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.15/akka-actor-typed_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor_2.12/2.6.15/akka-actor_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http-core_2.12/10.2.4/akka-http-core_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.2.4/akka-http_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-stream_2.12/2.6.15/akka-stream_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar!/reference.conf: 1: No configuration setting found for key 'database'
+	at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:156)
+	at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:174)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:188)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:193)
+	at com.typesafe.config.impl.SimpleConfig.getObject(SimpleConfig.java:268)
+	at com.typesafe.config.impl.SimpleConfig.getConfig(SimpleConfig.java:274)
+	at com.typesafe.config.impl.SimpleConfig.getConfig(SimpleConfig.java:41)
+	at slick.jdbc.JdbcBackend$DatabaseFactoryDef.forConfig(JdbcBackend.scala:301)
+	at slick.jdbc.JdbcBackend$DatabaseFactoryDef.forConfig$(JdbcBackend.scala:299)
+	at slick.jdbc.JdbcBackend$$anon$3.forConfig(JdbcBackend.scala:32)
+	at me.liuchenyu.persistence.DbConfig.db(DbConfig.scala:21)
+	at me.liuchenyu.persistence.DbConfig.db$(DbConfig.scala:21)
+	at me.liuchenyu.AkkaWebStarter$.db$lzycompute(AkkaWebStarter.scala:11)
+	at me.liuchenyu.AkkaWebStarter$.db(AkkaWebStarter.scala:11)
+	at me.liuchenyu.persistence.RepoDefinition$BaseRepo.all(DbConfig.scala:70)
+	at me.liuchenyu.router.AppRoutes.$anonfun$routes$4(AppRoutes.scala:27)
+	at akka.http.scaladsl.server.directives.RouteDirectives.$anonfun$complete$1(RouteDirectives.scala:51)
+	at akka.http.scaladsl.server.StandardRoute$$anon$1.apply(StandardRoute.scala:19)
+	at akka.http.scaladsl.server.StandardRoute$$anon$1.apply(StandardRoute.scala:19)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResult$2(BasicDirectives.scala:68)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$2(RouteConcatenation.scala:47)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRequestContext$2(BasicDirectives.scala:45)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRequestContext$2(BasicDirectives.scala:45)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$2(RouteConcatenation.scala:47)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResultWith$2(BasicDirectives.scala:74)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.ExecutionDirectives.$anonfun$handleExceptions$2(ExecutionDirectives.scala:32)
+	at akka.http.scaladsl.server.Route$.$anonfun$createAsyncHandler$1(Route.scala:110)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1428)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2021-07-13 10:25:53,047 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - New connection accepted
+2021-07-13 10:25:53,052 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - New connection accepted
+2021-07-13 10:25:53,071 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-9 - Error during processing of request: 'merge of system properties,application.conf @ file:/Users/liuchenyu/Downloads/akka-slick-pg/target/scala-2.12/classes/application.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.15/akka-actor-typed_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor_2.12/2.6.15/akka-actor_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http-core_2.12/10.2.4/akka-http-core_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.2.4/akka-http_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-stream_2.12/2.6.15/akka-stream_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar!/reference.conf: 1: No configuration setting found for key 'database''. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+com.typesafe.config.ConfigException$Missing: merge of system properties,application.conf @ file:/Users/liuchenyu/Downloads/akka-slick-pg/target/scala-2.12/classes/application.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.15/akka-actor-typed_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor_2.12/2.6.15/akka-actor_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http-core_2.12/10.2.4/akka-http-core_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.2.4/akka-http_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-stream_2.12/2.6.15/akka-stream_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar!/reference.conf: 1: No configuration setting found for key 'database'
+	at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:156)
+	at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:174)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:188)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:193)
+	at com.typesafe.config.impl.SimpleConfig.getObject(SimpleConfig.java:268)
+	at com.typesafe.config.impl.SimpleConfig.getConfig(SimpleConfig.java:274)
+	at com.typesafe.config.impl.SimpleConfig.getConfig(SimpleConfig.java:41)
+	at slick.jdbc.JdbcBackend$DatabaseFactoryDef.forConfig(JdbcBackend.scala:301)
+	at slick.jdbc.JdbcBackend$DatabaseFactoryDef.forConfig$(JdbcBackend.scala:299)
+	at slick.jdbc.JdbcBackend$$anon$3.forConfig(JdbcBackend.scala:32)
+	at me.liuchenyu.persistence.DbConfig.db(DbConfig.scala:21)
+	at me.liuchenyu.persistence.DbConfig.db$(DbConfig.scala:21)
+	at me.liuchenyu.AkkaWebStarter$.db$lzycompute(AkkaWebStarter.scala:11)
+	at me.liuchenyu.AkkaWebStarter$.db(AkkaWebStarter.scala:11)
+	at me.liuchenyu.persistence.RepoDefinition$BaseRepo.all(DbConfig.scala:70)
+	at me.liuchenyu.router.AppRoutes.$anonfun$routes$4(AppRoutes.scala:27)
+	at akka.http.scaladsl.server.directives.RouteDirectives.$anonfun$complete$1(RouteDirectives.scala:51)
+	at akka.http.scaladsl.server.StandardRoute$$anon$1.apply(StandardRoute.scala:19)
+	at akka.http.scaladsl.server.StandardRoute$$anon$1.apply(StandardRoute.scala:19)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResult$2(BasicDirectives.scala:68)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$2(RouteConcatenation.scala:47)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRequestContext$2(BasicDirectives.scala:45)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRequestContext$2(BasicDirectives.scala:45)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$2(RouteConcatenation.scala:47)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResultWith$2(BasicDirectives.scala:74)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.ExecutionDirectives.$anonfun$handleExceptions$2(ExecutionDirectives.scala:32)
+	at akka.http.scaladsl.server.Route$.$anonfun$createAsyncHandler$1(Route.scala:110)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1428)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2021-07-13 10:26:08,478 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-8 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:26:53,234 [DEBUG] from akka.actor.RepointableActorRef in default-akka.actor.default-dispatcher-17 - Aborting tcp connection to /127.0.0.1:51980 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 1 minute. This is configurable by akka.http.[server|client].idle-timeout.
+2021-07-13 10:26:53,234 [DEBUG] from akka.actor.RepointableActorRef in default-akka.actor.default-dispatcher-17 - Aborting tcp connection to /127.0.0.1:51979 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 1 minute. This is configurable by akka.http.[server|client].idle-timeout.
+2021-07-13 10:30:13,430 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-21 - New connection accepted
+2021-07-13 10:30:31,846 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-21 - New connection accepted
+2021-07-13 10:30:40,931 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-21 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:30:40,932 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-21 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:30:56,177 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-33 - New connection accepted
+2021-07-13 10:31:06,923 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-34 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:32:39,062 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-33 - New connection accepted
+2021-07-13 10:32:50,913 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-30 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:34:52,533 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-44 - New connection accepted
+2021-07-13 10:34:52,547 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-52 - Error during processing of request: 'merge of system properties,application.conf @ file:/Users/liuchenyu/Downloads/akka-slick-pg/target/scala-2.12/classes/application.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.15/akka-actor-typed_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor_2.12/2.6.15/akka-actor_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http-core_2.12/10.2.4/akka-http-core_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.2.4/akka-http_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-stream_2.12/2.6.15/akka-stream_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar!/reference.conf: 1: No configuration setting found for key 'database''. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+com.typesafe.config.ConfigException$Missing: merge of system properties,application.conf @ file:/Users/liuchenyu/Downloads/akka-slick-pg/target/scala-2.12/classes/application.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor-typed_2.12/2.6.15/akka-actor-typed_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-actor_2.12/2.6.15/akka-actor_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http-core_2.12/10.2.4/akka-http-core_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-http_2.12/10.2.4/akka-http_2.12-10.2.4.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/akka/akka-stream_2.12/2.6.15/akka-stream_2.12-2.6.15.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/slick/slick_2.12/3.2.3/slick_2.12-3.2.3.jar!/reference.conf: 1,reference.conf @ jar:file:/Users/liuchenyu/Library/Caches/Coursier/v1/https/repo.huaweicloud.com/repository/maven/com/typesafe/ssl-config-core_2.12/0.4.2/ssl-config-core_2.12-0.4.2.jar!/reference.conf: 1: No configuration setting found for key 'database'
+	at com.typesafe.config.impl.SimpleConfig.findKeyOrNull(SimpleConfig.java:156)
+	at com.typesafe.config.impl.SimpleConfig.findOrNull(SimpleConfig.java:174)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:188)
+	at com.typesafe.config.impl.SimpleConfig.find(SimpleConfig.java:193)
+	at com.typesafe.config.impl.SimpleConfig.getObject(SimpleConfig.java:268)
+	at com.typesafe.config.impl.SimpleConfig.getConfig(SimpleConfig.java:274)
+	at com.typesafe.config.impl.SimpleConfig.getConfig(SimpleConfig.java:41)
+	at slick.jdbc.JdbcBackend$DatabaseFactoryDef.forConfig(JdbcBackend.scala:301)
+	at slick.jdbc.JdbcBackend$DatabaseFactoryDef.forConfig$(JdbcBackend.scala:299)
+	at slick.jdbc.JdbcBackend$$anon$3.forConfig(JdbcBackend.scala:32)
+	at me.liuchenyu.persistence.DbConfig.db(DbConfig.scala:21)
+	at me.liuchenyu.persistence.DbConfig.db$(DbConfig.scala:21)
+	at me.liuchenyu.AkkaWebStarter$.db$lzycompute(AkkaWebStarter.scala:11)
+	at me.liuchenyu.AkkaWebStarter$.db(AkkaWebStarter.scala:11)
+	at me.liuchenyu.persistence.RepoDefinition$BaseRepo.insert(DbConfig.scala:78)
+	at me.liuchenyu.router.AppRoutes.$anonfun$routes$7(AppRoutes.scala:31)
+	at akka.http.scaladsl.server.directives.RouteDirectives.$anonfun$complete$1(RouteDirectives.scala:51)
+	at akka.http.scaladsl.server.StandardRoute$$anon$1.apply(StandardRoute.scala:19)
+	at akka.http.scaladsl.server.StandardRoute$$anon$1.apply(StandardRoute.scala:19)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResult$2(BasicDirectives.scala:68)
+	at akka.http.scaladsl.server.directives.FutureDirectives.$anonfun$onComplete$3(FutureDirectives.scala:37)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$1(FastFuture.scala:37)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension0(FastFuture.scala:37)
+	at akka.http.scaladsl.server.directives.FutureDirectives.$anonfun$onComplete$2(FutureDirectives.scala:37)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResult$2(BasicDirectives.scala:68)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$2(RouteConcatenation.scala:47)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRequestContext$2(BasicDirectives.scala:45)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRequestContext$2(BasicDirectives.scala:45)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$2(RouteConcatenation.scala:47)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:45)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.RouteConcatenation$RouteWithConcatenation.$anonfun$$tilde$1(RouteConcatenation.scala:44)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$mapRouteResultWith$2(BasicDirectives.scala:74)
+	at akka.http.scaladsl.server.directives.BasicDirectives.$anonfun$textract$2(BasicDirectives.scala:161)
+	at akka.http.scaladsl.server.directives.ExecutionDirectives.$anonfun$handleExceptions$2(ExecutionDirectives.scala:32)
+	at akka.http.scaladsl.server.Route$.$anonfun$createAsyncHandler$1(Route.scala:110)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1428)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:542)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:496)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:390)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:650)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:521)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:625)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:800)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:818)
+	at akka.actor.Actor.aroundReceive(Actor.scala:537)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:535)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:716)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:580)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:548)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243)
+	at java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+2021-07-13 10:35:22,166 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-52 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:42:41,351 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2021-07-13 10:42:41,360 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-4 - logger log1-Slf4jLogger started
+2021-07-13 10:42:41,362 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-4 - Default Loggers started
+2021-07-13 10:42:41,473 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-4 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 10:42:42,440 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:42:46,440 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-4 - New connection accepted
+2021-07-13 10:42:46,601 [INFO] from com.zaxxer.hikari.HikariDataSource in default-akka.actor.default-dispatcher-5 - postgres - Started.
+2021-07-13 10:42:46,955 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-4 - Error during processing of request: 'ERROR: relation "user" does not exist
+  Position: 72'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+org.postgresql.util.PSQLException: ERROR: relation "user" does not exist
+  Position: 72
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:153)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:38)
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:21)
+	at slick.jdbc.Invoker.foreach(Invoker.scala:47)
+	at slick.jdbc.Invoker.foreach$(Invoker.scala:46)
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:15)
+	at slick.jdbc.StreamingInvokerAction.run(StreamingInvokerAction.scala:22)
+	at slick.jdbc.StreamingInvokerAction.run$(StreamingInvokerAction.scala:20)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:42:47,115 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-5 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:43:12,682 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - New connection accepted
+2021-07-13 10:43:12,715 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-5 - Error during processing of request: 'ERROR: column "created_at" does not exist
+  Hint: Perhaps you meant to reference the column "user.created".
+  Position: 39'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+org.postgresql.util.PSQLException: ERROR: column "created_at" does not exist
+  Hint: Perhaps you meant to reference the column "user.created".
+  Position: 39
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:153)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at slick.jdbc.StatementInvoker.results(StatementInvoker.scala:38)
+	at slick.jdbc.StatementInvoker.iteratorTo(StatementInvoker.scala:21)
+	at slick.jdbc.Invoker.foreach(Invoker.scala:47)
+	at slick.jdbc.Invoker.foreach$(Invoker.scala:46)
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:15)
+	at slick.jdbc.StreamingInvokerAction.run(StreamingInvokerAction.scala:22)
+	at slick.jdbc.StreamingInvokerAction.run$(StreamingInvokerAction.scala:20)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:43:12,942 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-4 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:43:56,166 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2021-07-13 10:43:56,177 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-4 - logger log1-Slf4jLogger started
+2021-07-13 10:43:56,179 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-4 - Default Loggers started
+2021-07-13 10:43:56,276 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-4 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 10:43:57,171 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:44:16,611 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-4 - New connection accepted
+2021-07-13 10:44:16,772 [INFO] from com.zaxxer.hikari.HikariDataSource in default-akka.actor.default-dispatcher-5 - postgres - Started.
+2021-07-13 10:44:17,121 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-4 - Error during processing of request: 'Read NULL value (null) for ResultSet column <computed>'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+slick.SlickException: Read NULL value (null) for ResultSet column <computed>
+	at slick.jdbc.SpecializedJdbcResultConverter$$anon$1.read(SpecializedJdbcResultConverters.scala:27)
+	at slick.jdbc.SpecializedJdbcResultConverter$$anon$1.read(SpecializedJdbcResultConverters.scala:24)
+	at slick.relational.ProductResultConverter.read(ResultConverter.scala:53)
+	at slick.relational.ProductResultConverter.read(ResultConverter.scala:43)
+	at slick.relational.TypeMappingResultConverter.read(ResultConverter.scala:133)
+	at slick.jdbc.JdbcInvokerComponent$QueryInvokerImpl.extractValue(JdbcInvokerComponent.scala:36)
+	at slick.jdbc.StatementInvoker$$anon$1.extractValue(StatementInvoker.scala:66)
+	at slick.jdbc.PositionedResultIterator.fetchNext(PositionedResult.scala:176)
+	at slick.util.ReadAheadIterator.update(ReadAheadIterator.scala:28)
+	at slick.util.ReadAheadIterator.hasNext(ReadAheadIterator.scala:34)
+	at slick.util.ReadAheadIterator.hasNext$(ReadAheadIterator.scala:33)
+	at slick.jdbc.PositionedResultIterator.hasNext(PositionedResult.scala:167)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at slick.jdbc.PositionedResultIterator.foreach(PositionedResult.scala:167)
+	at slick.jdbc.Invoker.foreach(Invoker.scala:48)
+	at slick.jdbc.Invoker.foreach$(Invoker.scala:46)
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:15)
+	at slick.jdbc.StreamingInvokerAction.run(StreamingInvokerAction.scala:22)
+	at slick.jdbc.StreamingInvokerAction.run$(StreamingInvokerAction.scala:20)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:44:17,258 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-5 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:48:27,439 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-5 - Slf4jLogger started
+2021-07-13 10:48:27,450 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - logger log1-Slf4jLogger started
+2021-07-13 10:48:27,452 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-5 - Default Loggers started
+2021-07-13 10:48:27,555 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-5 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 10:48:28,574 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-6 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:48:32,362 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - New connection accepted
+2021-07-13 10:48:32,517 [INFO] from com.zaxxer.hikari.HikariDataSource in default-akka.actor.default-dispatcher-6 - postgres - Started.
+2021-07-13 10:48:33,039 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-5 - Error during processing of request: 'Read NULL value (null) for ResultSet column <computed>'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+slick.SlickException: Read NULL value (null) for ResultSet column <computed>
+	at slick.jdbc.SpecializedJdbcResultConverter$$anon$1.read(SpecializedJdbcResultConverters.scala:27)
+	at slick.jdbc.SpecializedJdbcResultConverter$$anon$1.read(SpecializedJdbcResultConverters.scala:24)
+	at slick.relational.ProductResultConverter.read(ResultConverter.scala:53)
+	at slick.relational.ProductResultConverter.read(ResultConverter.scala:43)
+	at slick.relational.TypeMappingResultConverter.read(ResultConverter.scala:133)
+	at slick.jdbc.JdbcInvokerComponent$QueryInvokerImpl.extractValue(JdbcInvokerComponent.scala:36)
+	at slick.jdbc.StatementInvoker$$anon$1.extractValue(StatementInvoker.scala:66)
+	at slick.jdbc.PositionedResultIterator.fetchNext(PositionedResult.scala:176)
+	at slick.util.ReadAheadIterator.update(ReadAheadIterator.scala:28)
+	at slick.util.ReadAheadIterator.hasNext(ReadAheadIterator.scala:34)
+	at slick.util.ReadAheadIterator.hasNext$(ReadAheadIterator.scala:33)
+	at slick.jdbc.PositionedResultIterator.hasNext(PositionedResult.scala:167)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at slick.jdbc.PositionedResultIterator.foreach(PositionedResult.scala:167)
+	at slick.jdbc.Invoker.foreach(Invoker.scala:48)
+	at slick.jdbc.Invoker.foreach$(Invoker.scala:46)
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:15)
+	at slick.jdbc.StreamingInvokerAction.run(StreamingInvokerAction.scala:22)
+	at slick.jdbc.StreamingInvokerAction.run$(StreamingInvokerAction.scala:20)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:48:33,275 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-6 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:50:32,256 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-9 - New connection accepted
+2021-07-13 10:50:32,444 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-20 - Error during processing of request: 'ERROR: column "id" is of type uuid but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+org.postgresql.util.PSQLException: ERROR: column "id" is of type uuid but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.$anonfun$run$11(JdbcActionComponent.scala:510)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedInsertStatement(JdbcBackend.scala:393)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedInsertStatement$(JdbcBackend.scala:390)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedInsertStatement(JdbcBackend.scala:448)
+	at slick.jdbc.JdbcActionComponent$ReturningInsertActionComposerImpl.preparedInsert(JdbcActionComponent.scala:650)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.run(JdbcActionComponent.scala:507)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:30)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:27)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:50:32,650 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-9 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:50:55,120 [INFO] from akka.event.slf4j.Slf4jLogger in default-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2021-07-13 10:50:55,134 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-4 - logger log1-Slf4jLogger started
+2021-07-13 10:50:55,137 [DEBUG] from akka.event.EventStream in default-akka.actor.default-dispatcher-4 - Default Loggers started
+2021-07-13 10:50:55,276 [DEBUG] from akka.serialization.Serialization(akka://default) in default-akka.actor.default-dispatcher-4 - Replacing JavaSerializer with DisabledJavaSerializer, due to `akka.actor.allow-java-serialization = off`.
+2021-07-13 10:50:56,643 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-4 - Successfully bound to /0:0:0:0:0:0:0:0:8080
+2021-07-13 10:51:07,689 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-5 - New connection accepted
+2021-07-13 10:51:08,060 [INFO] from com.zaxxer.hikari.HikariDataSource in default-akka.actor.default-dispatcher-4 - postgres - Started.
+2021-07-13 10:51:08,464 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-5 - Error during processing of request: 'ERROR: column "id" is of type uuid but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+org.postgresql.util.PSQLException: ERROR: column "id" is of type uuid but expression is of type character varying
+  Hint: You will need to rewrite or cast the expression.
+  Position: 79
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.$anonfun$run$11(JdbcActionComponent.scala:510)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedInsertStatement(JdbcBackend.scala:393)
+	at slick.jdbc.JdbcBackend$SessionDef.withPreparedInsertStatement$(JdbcBackend.scala:390)
+	at slick.jdbc.JdbcBackend$BaseSession.withPreparedInsertStatement(JdbcBackend.scala:448)
+	at slick.jdbc.JdbcActionComponent$ReturningInsertActionComposerImpl.preparedInsert(JdbcActionComponent.scala:650)
+	at slick.jdbc.JdbcActionComponent$InsertActionComposerImpl$SingleInsertAction.run(JdbcActionComponent.scala:507)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:30)
+	at slick.jdbc.JdbcActionComponent$SimpleJdbcProfileAction.run(JdbcActionComponent.scala:27)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:51:29,019 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-5 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:51:37,795 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-11 - New connection accepted
+2021-07-13 10:51:38,636 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-14 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:51:53,942 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-13 - New connection accepted
+2021-07-13 10:51:54,140 [ERROR] from akka.actor.ActorSystemImpl in default-akka.actor.default-dispatcher-8 - Error during processing of request: 'Read NULL value (null) for ResultSet column <computed>'. Completing with 500 Internal Server Error response. To change default exception handling behavior, provide a custom ExceptionHandler.
+slick.SlickException: Read NULL value (null) for ResultSet column <computed>
+	at slick.jdbc.SpecializedJdbcResultConverter$$anon$1.read(SpecializedJdbcResultConverters.scala:27)
+	at slick.jdbc.SpecializedJdbcResultConverter$$anon$1.read(SpecializedJdbcResultConverters.scala:24)
+	at slick.relational.ProductResultConverter.read(ResultConverter.scala:53)
+	at slick.relational.ProductResultConverter.read(ResultConverter.scala:43)
+	at slick.relational.TypeMappingResultConverter.read(ResultConverter.scala:133)
+	at slick.jdbc.JdbcInvokerComponent$QueryInvokerImpl.extractValue(JdbcInvokerComponent.scala:36)
+	at slick.jdbc.StatementInvoker$$anon$1.extractValue(StatementInvoker.scala:66)
+	at slick.jdbc.PositionedResultIterator.fetchNext(PositionedResult.scala:176)
+	at slick.util.ReadAheadIterator.update(ReadAheadIterator.scala:28)
+	at slick.util.ReadAheadIterator.hasNext(ReadAheadIterator.scala:34)
+	at slick.util.ReadAheadIterator.hasNext$(ReadAheadIterator.scala:33)
+	at slick.jdbc.PositionedResultIterator.hasNext(PositionedResult.scala:167)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at slick.jdbc.PositionedResultIterator.foreach(PositionedResult.scala:167)
+	at slick.jdbc.Invoker.foreach(Invoker.scala:48)
+	at slick.jdbc.Invoker.foreach$(Invoker.scala:46)
+	at slick.jdbc.StatementInvoker.foreach(StatementInvoker.scala:15)
+	at slick.jdbc.StreamingInvokerAction.run(StreamingInvokerAction.scala:22)
+	at slick.jdbc.StreamingInvokerAction.run$(StreamingInvokerAction.scala:20)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.jdbc.JdbcActionComponent$QueryActionExtensionMethodsImpl$$anon$1.run(JdbcActionComponent.scala:216)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.liftedTree1$1(BasicBackend.scala:275)
+	at slick.basic.BasicBackend$DatabaseDef$$anon$2.run(BasicBackend.scala:275)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-13 10:51:54,258 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-14 - Closing connection due to IO error java.io.IOException: Connection reset by peer
+2021-07-13 10:52:35,551 [DEBUG] from akka.io.TcpListener in default-akka.actor.default-dispatcher-20 - New connection accepted
+2021-07-13 10:52:42,136 [DEBUG] from akka.io.TcpIncomingConnection in default-akka.actor.default-dispatcher-14 - Closing connection due to IO error java.io.IOException: Connection reset by peer

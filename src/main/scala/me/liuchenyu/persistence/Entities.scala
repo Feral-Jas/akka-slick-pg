@@ -10,14 +10,14 @@ import java.util.UUID
  */
 
 trait Entity {
-  def id: UUID
+  def id: String
 
   def created: Timestamp
 
   def modified: Option[Timestamp]
 }
 
-case class User(id: UUID,
+case class User(id: String,
                 name: String,
                 gender: String,
                 age: Int,
@@ -25,7 +25,7 @@ case class User(id: UUID,
                 modified: Option[Timestamp]
                ) extends Entity
 
-case class Action(id: UUID,
+case class Action(id: String,
                   name: String,
                   description: String,
                   created: Timestamp,

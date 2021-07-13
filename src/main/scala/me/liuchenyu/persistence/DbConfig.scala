@@ -18,7 +18,7 @@ trait DbConfig {
 
   import driver.api._
 
-  lazy val db: Database = Database.forConfig("database")
+  lazy val db: Database = Database.forConfig("postgres")
 }
 
 trait PG extends DbConfig {
@@ -38,9 +38,9 @@ trait TableDefinition {
                                                      schemaName: Option[String] = None)
     extends Table[E](tag, schemaName, tableName) {
 
-    val id = column[UUID]("id", O.PrimaryKey)
-    val created = column[Timestamp]("created_at")
-    val modified = column[Timestamp]("modified_at")
+    val id = column[String]("id", O.PrimaryKey,O.Unique)
+    val created = column[Timestamp]("created")
+    val modified = column[Timestamp]("modified")
   }
 
 }
@@ -48,13 +48,13 @@ trait TableDefinition {
 sealed trait Repository[E <: Entity] {
   def all: Future[Seq[E]]
 
-  def byId(id: UUID): Future[Option[E]]
+  def byId(id: String): Future[Option[E]]
 
   def insert(entity: E): Future[E]
 
   def update(entity: E): Future[Int]
 
-  def delete(id: UUID): Future[Boolean]
+  def delete(id: String): Future[Boolean]
 }
 
 trait RepoDefinition extends TableDefinition {
@@ -71,7 +71,7 @@ trait RepoDefinition extends TableDefinition {
       table.to[Seq].result
     }
 
-    override def byId(id: UUID): Future[Option[E]] = db.run {
+    override def byId(id: String): Future[Option[E]] = db.run {
       table.filter(_.id === id).result.headOption
     }
 
@@ -83,7 +83,7 @@ trait RepoDefinition extends TableDefinition {
       table.insertOrUpdate(entity)
     }
 
-    override def delete(id: UUID): Future[Boolean] = db.run {
+    override def delete(id: String): Future[Boolean] = db.run {
       table.filter(_.id === id).delete.map(_ > 0)
     }
   }

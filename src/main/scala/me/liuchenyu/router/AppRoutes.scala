@@ -22,14 +22,16 @@ class AppRoutes(userRepo: UserComponent#UserRepository,
     concat(
     pathPrefix("users") {
     pathEndOrSingleSlash{
-      get {
-        complete(userRepo.all)
-      }
-      post {
-        entity(as[User]) { u =>
-          complete(userRepo.insert(u))
+      concat(
+        get {
+          complete(userRepo.all)
+        },
+        post {
+          entity(as[User]) { u =>
+            complete(userRepo.insert(u))
+          }
         }
-      }
+      )
     }},
       pathPrefix("actions"){
         pathEndOrSingleSlash{

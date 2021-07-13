@@ -23,16 +23,6 @@ trait BaseJsonProtocol extends DefaultJsonProtocol {
           s"Can not parse json value [$json] to a timestamp object")
     }
   }
-
-  implicit val uuidJsonFormat: JsonFormat[UUID] = new JsonFormat[UUID] {
-    override def write(x: UUID): JsValue = JsString(x.toString)
-
-    override def read(value: JsValue): UUID = value match {
-      case JsString(x) => UUID.fromString(x)
-      case x =>
-        throw new IllegalArgumentException("Expected UUID as JsString, but got " + x.getClass)
-    }
-  }
 }
 
 trait JsonParser extends SprayJsonSupport with BaseJsonProtocol {
