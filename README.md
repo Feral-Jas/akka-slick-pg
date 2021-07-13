@@ -1,5 +1,6 @@
 # akka-slick-pg
-
+> java to scala from scratch
+> demo project with akka mix
  - akka-http
  - akka-actor(classic)
  - slick
