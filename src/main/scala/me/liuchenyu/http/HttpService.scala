@@ -10,18 +10,16 @@ import me.liuchenyu.router.AppRoutes
 import scala.concurrent.ExecutionContext
 
 /**
- * @author liuchenyu
- * @date 2021/7/13
- * @description ${DESCRIPTION}
- */
-trait HttpService
-  extends UserComponent with ActionComponent
-    with DbConfig {
-  implicit lazy val system: ActorSystem = ActorSystem()
+  * @author liuchenyu
+  * @date 2021/7/13
+  * @description ${DESCRIPTION}
+  */
+trait HttpService extends UserComponent with ActionComponent with DbConfig {
+  implicit lazy val system: ActorSystem        = ActorSystem()
   implicit lazy val materializer: Materializer = ActorMaterializer()
-  implicit lazy val ec: ExecutionContext = system.dispatcher
+  implicit lazy val ec: ExecutionContext       = system.dispatcher
 
-  lazy val userRepo: UserRepository = new UserRepository
+  lazy val userRepo: UserRepository     = new UserRepository
   lazy val actionRepo: ActionRepository = new ActionRepository
 
   lazy val routes: Route = new AppRoutes(userRepo, actionRepo).routes

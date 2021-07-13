@@ -1,10 +1,10 @@
 package me.liuchenyu.http
 
 /**
- * @author liuchenyu
- * @date 2021/7/12
- * @description ${DESCRIPTION}
- */
+  * @author liuchenyu
+  * @date 2021/7/12
+  * @description ${DESCRIPTION}
+  */
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
@@ -22,5 +22,5 @@ trait HttpServer extends AppConfig {
 
   def routes: Route
 
-  Http().newServerAt(httpHost,httpPort).bind(routes)
+  Http().newServerAt(httpHost, httpPort).bind(routes)
 }

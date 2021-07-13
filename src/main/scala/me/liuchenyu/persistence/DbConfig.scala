@@ -4,15 +4,14 @@ import slick.jdbc.{JdbcProfile, PostgresProfile}
 import slick.lifted
 
 import java.sql.Timestamp
-import java.util.UUID
 import scala.concurrent.{ExecutionContext, Future}
 import scala.reflect.ClassTag
 
 /**
- * @author liuchenyu
- * @date 2021/7/12
- * @description ${DESCRIPTION}
- */
+  * @author liuchenyu
+  * @date 2021/7/12
+  * @description ${DESCRIPTION}
+  */
 trait DbConfig {
   val driver: JdbcProfile
 
@@ -31,15 +30,15 @@ trait TableDefinition {
   import driver.api._
 
   /**
-   * The [[BaseTable]] describes the basic [[Entities]]
-   */
-  abstract class BaseTable[E <: Entity : ClassTag](tag: Tag,
-                                                     tableName: String,
-                                                     schemaName: Option[String] = None)
-    extends Table[E](tag, schemaName, tableName) {
+    * The [[BaseTable]] describes the basic [[Entities]]
+    */
+  abstract class BaseTable[E <: Entity: ClassTag](tag: Tag,
+                                                  tableName: String,
+                                                  schemaName: Option[String] = None)
+      extends Table[E](tag, schemaName, tableName) {
 
-    val id = column[String]("id", O.PrimaryKey,O.Unique)
-    val created = column[Timestamp]("created")
+    val id       = column[String]("id", O.PrimaryKey, O.Unique)
+    val created  = column[Timestamp]("created")
     val modified = column[Timestamp]("modified")
   }
 
@@ -63,7 +62,7 @@ trait RepoDefinition extends TableDefinition {
   import driver.api._
 
   abstract class BaseRepo[E <: Entity, T <: BaseTable[E]](implicit ex: ExecutionContext)
-    extends Repository[E] {
+      extends Repository[E] {
 
     val table: lifted.TableQuery[T]
 
